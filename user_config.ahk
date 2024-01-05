@@ -22,34 +22,34 @@
 ; ===========================
 
 ;;; 切换桌面
-#1::switchDesktopByNumber(1)
-#2::switchDesktopByNumber(2)
-#3::switchDesktopByNumber(3)
-#4::switchDesktopByNumber(4)
-#5::switchDesktopByNumber(5)
-#6::switchDesktopByNumber(6)
-#7::switchDesktopByNumber(7)
-#8::switchDesktopByNumber(8)
-#9::switchDesktopByNumber(9)
+F1::switchDesktopByNumber(1)
+F2::switchDesktopByNumber(2)
+F3::switchDesktopByNumber(3)
+;F4::switchDesktopByNumber(4)
+;F5::switchDesktopByNumber(5)
+;F6::switchDesktopByNumber(6)
+;F7::switchDesktopByNumber(7)
+;F8::switchDesktopByNumber(8)
+;F9::switchDesktopByNumber(9)
 
 ;;; 移动到指定桌面
-+#1::MoveCurrentWindowToDesktop(1)
-+#2::MoveCurrentWindowToDesktop(2)
-+#3::MoveCurrentWindowToDesktop(3)
-+#4::MoveCurrentWindowToDesktop(4)
-+#5::MoveCurrentWindowToDesktop(5)
-+#6::MoveCurrentWindowToDesktop(6)
-+#7::MoveCurrentWindowToDesktop(7)
-+#8::MoveCurrentWindowToDesktop(8)
-+#9::MoveCurrentWindowToDesktop(9)
-+#Down::MoveCurrentWindowToRightDesktop()
-+#Up::MoveCurrentWindowToLeftDesktop()
+^F1::MoveCurrentWindowToDesktop(1)
+^F2::MoveCurrentWindowToDesktop(2)
+^F3::MoveCurrentWindowToDesktop(3)
+;^F4::MoveCurrentWindowToDesktop(4)
+;^F5::MoveCurrentWindowToDesktop(5)
+;^F6::MoveCurrentWindowToDesktop(6)
+;^F7::MoveCurrentWindowToDesktop(7)
+;^F8::MoveCurrentWindowToDesktop(8)
+;^F9::MoveCurrentWindowToDesktop(9)
+;^Down::MoveCurrentWindowToRightDesktop()
+;^Up::MoveCurrentWindowToLeftDesktop()
 
 ;;; 重新映射方向键 alt+h/j/k/l
-!j::send {Down}
-!k::send {Up}
-!h::send {Left}
-!l::send {Right}
+;!j::send {Down}
+;!k::send {Up}
+;!h::send {Left}
+;!l::send {Right}
 
 ;
 ;SetCapsLockState AlwaysOff
