@@ -32,6 +32,9 @@ F3::switchDesktopByNumber(3)
 ;F8::switchDesktopByNumber(8)
 ;F9::switchDesktopByNumber(9)
 
+;;; 禁用win+f1帮助
+#F1::return
+
 ;;; 移动到指定桌面
 ^F1::MoveCurrentWindowToDesktop(1)
 ^F2::MoveCurrentWindowToDesktop(2)
